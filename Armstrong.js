@@ -7,7 +7,6 @@ function ArmStrong(n) {
     console.log("ld", ld);
     sum = sum + ld * ld * ld;
     console.log("sum", sum);
-
     n = Math.floor(n / 10);
     console.log("n", n);
   }
